@@ -6,6 +6,10 @@
   "directories": {
     "lib": "lib"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soyFelixBarros/Record-Radio.git"
+  },
   "dependencies": {
     "ffmetadata": "^1.5.0",
     "homedir": "^0.6.0",
