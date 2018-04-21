@@ -1,7 +1,9 @@
 #!/usr/bin/env node
-require('./lib/record').main({
+var record = require('./lib/record')
+
+record.main({
     url: 'http://painel.serveron.com.br:8110/stream',
-    nameRadio: 'Clan 92.7',
+    nameRadio: 'Radio Example 92.7 FM',
     outputFolder: 'recordings',
-    streamTitle: 'Felix Barros: Que es la tecnología'
+    streamTitle: 'Title of the recording'
 });
