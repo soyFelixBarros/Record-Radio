@@ -3,6 +3,12 @@
   "version": "1.0.1",
   "description": "Herramienta para extraer transmisiones de radio.",
   "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "index.js"
+  ],
   "directories": {
     "lib": "lib"
   },
@@ -27,6 +33,9 @@
     "radio",
     "audio"
   ],
-  "author": "Felix Barros",
+  "author": {
+    "name": "Felix Barros",
+    "email": "soyfelixbarros@gmail.com"
+  },
   "license": "MIT"
 }
